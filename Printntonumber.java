@@ -1,10 +1,12 @@
 public class Printntonumber{
-  static void print(int x){
-    if(x==0){
+  static void print(int x,int y){
+    if(y>10){
         return;
     }
-    System.out.print(x +" ");
-    print(x-1);
+    
+    
+    System.out.println(x +"*"+ y+"="+(x*y));
+    print(x,y+1);
   }
 
 
@@ -13,8 +15,9 @@ public class Printntonumber{
 
 
     public static void main(String[] args) {
-        int num=4;
-        print(num);
+        int a=5;
+        int b=1;
+        print(a,b);
         
     }
 }
