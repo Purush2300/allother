@@ -1,6 +1,6 @@
 public class Clear {
     public static void main(String[] args){
-        System.out.println(fibo(5));
+        System.out.println(fibo(2));
     }
  static int fibo(int n){
     if(n<2){
